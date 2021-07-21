@@ -1,14 +1,12 @@
+import friends from './components/Friend-list/friends.json'
+import { FriendList } from './components/Friend-list/FriendList'
 
-import './App.css';
-
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
-  );
+    <>
+      <FriendList friends={friends} />
+    </>
+  )
 }
 
-export default App;
+export default App
