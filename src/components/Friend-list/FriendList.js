@@ -1,6 +1,7 @@
 import React from 'react'
 import { FriendCard } from './FriendCard'
 import {FriendListContainer } from './FriendListContainer.styles'
+import PropTypes from 'prop-types'
 
 export const FriendList = ({ friends }) => {
   return (
@@ -15,4 +16,8 @@ export const FriendList = ({ friends }) => {
       ))}
     </FriendListContainer >
   )
+}
+
+FriendList.propTypes = {
+  friends: PropTypes.array.isRequired,
 }

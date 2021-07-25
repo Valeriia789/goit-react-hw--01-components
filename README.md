@@ -22,7 +22,7 @@
 
 ## Задания
 
-- [Задание 1 - Профиль социальной сети](./Tasks/social-profile/)
+- [Задание 1 - Профиль социальной сети](./src/components/Social-profile/)
 - [Задание 2 - Секция статистики](./Tasks/statistics/)
 - [Задание 3 - Список друзей](./src/components/Friend-list/)
 - [Задание 4 - История транзакций](./Tasks/transaction-history/)
