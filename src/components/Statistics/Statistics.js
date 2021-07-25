@@ -1,6 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Section, SectionTitle, StatsList, StatsListItem } from './Statistics.styles'
+import {
+  Section,
+  SectionTitle,
+  StatsList,
+  StatsListItem
+} from './Statistics.styles'
 
 export const Statistics = ({ stats, title }) => {
   return (
@@ -10,7 +15,9 @@ export const Statistics = ({ stats, title }) => {
       <StatsList>
         {stats.map(stat => (
           <StatsListItem key={stat.id}>
-            <span><b>{stat.label}</b></span>
+            <span>
+              <b>{stat.label}</b>
+            </span>
             <span>{stat.percentage}%</span>
           </StatsListItem>
         ))}

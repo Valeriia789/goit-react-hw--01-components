@@ -25,4 +25,4 @@
 - [Задание 1 - Профиль социальной сети](./src/components/Social-profile/)
 - [Задание 2 - Секция статистики](./src/components/Statistics/)
 - [Задание 3 - Список друзей](./src/components/Friend-list/)
-- [Задание 4 - История транзакций](./Tasks/transaction-history/)
+- [Задание 4 - История транзакций](./src/components/Transaction-history/)

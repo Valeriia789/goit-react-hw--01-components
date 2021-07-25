@@ -12,6 +12,7 @@ const Section = styled.section`
     -2px -2px 5px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 0 rgba(0, 0, 0, 0.1),
     -2px 2px 5px 0 rgba(0, 0, 0, 0.1);
 `
+
 const SectionTitle = styled.h2`
   text-transform: uppercase;
 `
